@@ -8,9 +8,7 @@
     padding-top: 10px;
 }
 
-.container{
-    
-}
+
 
 .container-img{
     margin: 20px;
@@ -18,7 +16,7 @@
 }
 
 .bold-text{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .btn{
@@ -28,4 +26,8 @@
     font-size: large;
     
     
+}
+
+.letter-space{
+    letter-spacing: 3px;
 }

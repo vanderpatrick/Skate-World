@@ -4,16 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
-  color: #252525;
+  color: #3a3a3a;
 }
 
 h1, h2 {
     font-family:Montserrat, sans-serif ;
 }
 
-p {
-    font-family: roboto, sans-serif;
-}
 
 /* navbar */
 
@@ -37,6 +34,7 @@ p {
     float: right;
     list-style-type: none;
     margin-right: 20px;
+    padding-left: 20px;
 }
 
 .nav-list a {
@@ -45,8 +43,10 @@ p {
 }
 
 .nav-list a:hover {
-    background-color: aqua;
-    border: 3px solid silver;
+    background-color: #3a3a3a;
+    border: 1px solid silver;
+    color: #fafafa;
+    border-radius: 10px;
 }
 
 .active {
@@ -54,4 +54,42 @@ p {
     border: 3px solid silver;
     border-radius: 10px;
 }
+
+/* hero iamge and sign up */
+
+.hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-img {
+    height: 600px;
+    width: 100%;
+    background: url(/css/images/urban-skate-freestyle-ramp-5285328.jpg);
+}
+
+.cover-text {
+    font-size: 130%;
+    font-family:Roboto,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fafafa;
+    
+
+    width: 600px;
+    height: 400px;
+
+    margin: 0 auto;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 20%;
+    right: 40%;
+
+    position: absolute;
+}
+
+
 

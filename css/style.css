@@ -62,16 +62,48 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-img {
     height: 600px;
     width: 100%;
-    background: url(/css/images/urban-skate-freestyle-ramp-5285328.jpg);
+    background:url(/css/images/urban-skate-freestyle-ramp-5285328.jpg) no-repeat center center;
+    
+}
+
+.button-logo {
+    text-align: center;
+    color: white;
+    font-size: 210%;
+    padding-top: 30px;
+}
+
+.join-button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    
+    
+}
+
+.join-button {
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.join-button:hover {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 20px;
 }
 
 .cover-text {
-    font-size: 130%;
+    font-size: 110%;
     font-family:Roboto,sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -81,12 +113,11 @@ h1, h2 {
     width: 600px;
     height: 400px;
 
-    margin: 0 auto;
+    
 
     background-color: rgba(241, 109, 107, .7);
 
-    bottom: 20%;
-    right: 40%;
+   
 
     position: absolute;
 }

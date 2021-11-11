@@ -95,6 +95,7 @@ h1, h2 {
     color: white;
     font-size: 200%;
     text-decoration: none;
+    font-family: montserrat,sans-serif;
 }
 
 .join-button:hover {
@@ -122,5 +123,17 @@ h1, h2 {
     position: absolute;
 }
 
+
+/* school info section */
+
+
+.school-info {
+    height: 600px;
+}
+
+
+.school-logo {
+    text-align: center;
+}
 
 

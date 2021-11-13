@@ -7,6 +7,8 @@
   color: #3a3a3a;
 }
 
+
+
 h1, h2 {
     font-family:Montserrat, sans-serif ;
 }
@@ -25,50 +27,75 @@ hr {
 
 /* navbar */
 
-.logo, .nav-list {
-    line-height: 75px;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 10px 10px;
 }
 
-.logo {
-    font-size: 280%;
-    letter-spacing: 5px;
-    float: left;
-    margin-left: 30px;
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
 }
 
-.nav-list {
-    font-size: 180%;
-    letter-spacing: 5px;
-}
-
-.nav-list li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-    padding-left: 20px;
-}
-
-.nav-list a {
+.brand-title a {
+    color: white;
     text-decoration: none;
-    font-family: roboto, sans-serif;
 }
 
-.nav-list a:hover {
-    background-color: #3a3a3a;
-    border: 1px solid silver;
-    color: #fafafa;
+.navbar-links ul{
+    margin:  0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbar-links li{
+    list-style: none;
+    
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color:#0088a9;
+    border-radius: 12px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 25px;
+    right: 5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
     border-radius: 10px;
 }
 
-.active {
-    background-color: silver;
-    border: 3px solid silver;
-    border-radius: 10px;
-}
+
 
 /* hero iamge and sign up */
 
 .hero-outer {
+    margin-top: 50px;
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -81,7 +108,7 @@ hr {
 .hero-img {
     height: 600px;
     width: 100%;
-    background:url(/css/images/urban-skate-freestyle-ramp-5285328.jpg) no-repeat center center;
+    background:url(../images/hero\ image.jpeg) no-repeat center center;
     
 }
 
@@ -122,8 +149,8 @@ hr {
     color: #fafafa;
     
 
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 250px;
 
     
 
@@ -139,7 +166,7 @@ hr {
 
 
 .school-info {
-    height: 600px;
+    height: 390px;
     display: flex;
     justify-content: space-evenly;
     margin: 100px;
@@ -184,10 +211,83 @@ hr {
 }
 
 .circle-inner {
-    background: url(/css/images/patick\ photo.jfif)no-repeat center center;
+    background: url(../images/patick\ photo.jfif)no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
 }
 
 
+/* feedback */
+
+
+.feedback{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    padding:  0 100px;
+    
+}
+
+
+.feedback-logo {
+    text-align: center;
+    font-size: 280%;
+    margin: 15px 0;
+}
+
+.feedback-item-left {
+    width: 300px;
+    margin-bottom: 150px;
+    line-height: 20px;
+}
+
+
+.feedback-item-right {
+    width: 300px;
+    margin-bottom: 150px;
+    line-height: 20px;
+}
+
+.feedback-item-center {
+    width: 300px;
+    margin-bottom: 150px;
+    line-height: 20px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 400px) {
+    .toggle-button{
+        display:flex ;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+        text-align: center;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+}

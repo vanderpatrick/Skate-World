@@ -41,7 +41,7 @@ hr {
 }
 
 .brand-title{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: .5rem;
 }
 
@@ -54,7 +54,7 @@ hr {
     margin:  0;
     padding: 0;
     display: flex;
-
+    font-size: 2rem;
 }
 
 .navbar-links li{
@@ -99,7 +99,7 @@ hr {
 
 
 .hero-outer {
-    margin-top: ;
+    margin-top:50px ;
     height: 600px;
     width: 100%;
     overflow: hidden;

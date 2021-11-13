@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@1,300&display=swap');
 
 * {
   margin: 0;
@@ -16,6 +16,8 @@ h1, h2 {
 p {
     font-family: roboto,sans-serif;
     color: #252525;
+    font-size: 150%;
+    line-height: 30px;
     
 }
 
@@ -31,7 +33,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #3f4435;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -69,7 +71,7 @@ hr {
 
 .navbar-links li:hover {
     background-color:#0088a9;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .toggle-button{
@@ -97,7 +99,7 @@ hr {
 
 
 .hero-outer {
-    margin-top: 50px;
+    margin-top: ;
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -159,6 +161,7 @@ hr {
     background-color: rgb(86,86,66,0.7);
 
    margin-left: 15px;
+   margin-bottom: 15px;
 
     position: absolute;
 }
@@ -168,14 +171,14 @@ hr {
 
 
 .school-info {
-    height: 390px;
+    height: 500px;
     display: flex;
     justify-content: space-evenly;
     margin: 100px;
     padding:  0 100px;
+    line-height: 25px;    
     
 }
-
 
 .school-logo {
     text-align: center;
@@ -186,14 +189,12 @@ hr {
 .left-info-content {
     width: 300px;
     margin-bottom: 150px;
-    line-height: 20px;
 }
 
 
 .right-info-content {
     width: 300px;
-    margin-bottom: 150px;
-    line-height: 20px;
+    margin-bottom: 100px;
 }
 
 .center-info {
@@ -224,10 +225,10 @@ hr {
 
 
 .feedback{
-    height: 400px;
+    height: 750px;
     display: flex;
     justify-content: space-evenly;
-    margin: 100px;
+    margin: 100px 100px 0 100px ;
     padding:  0 100px;
     
 }
@@ -293,3 +294,5 @@ hr {
         display: flex;
     }
 }
+
+/* footer */

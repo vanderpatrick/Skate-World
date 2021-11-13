@@ -94,6 +94,8 @@ hr {
 
 /* hero iamge and sign up */
 
+
+
 .hero-outer {
     margin-top: 50px;
     height: 600px;
@@ -101,8 +103,8 @@ hr {
     overflow: hidden;
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-end;
 }
 
 .hero-img {
@@ -137,7 +139,7 @@ hr {
 }
 
 .join-button:hover {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgb(0,136,169,0.5);
     border-radius: 20px;
 }
 
@@ -154,9 +156,9 @@ hr {
 
     
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgb(86,86,66,0.7);
 
-   
+   margin-left: 15px;
 
     position: absolute;
 }
@@ -178,7 +180,7 @@ hr {
 .school-logo {
     text-align: center;
     font-size: 280%;
-    margin: 15px 0;
+    margin: 50px 0;
 }
 
 .left-info-content {

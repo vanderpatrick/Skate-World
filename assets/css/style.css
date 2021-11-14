@@ -275,6 +275,95 @@ footer {
 }
 
 
+/* Team section */
+
+.team {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.team-logo {
+    font-size: 280%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.armando {
+    background: url(../images/armando\ photo.png) no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.milan {
+    background: url(../images/milan\ photo.png) no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.addison {
+    background: url(../images/addison\ photo.png) no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.andrew {
+    background: url(../images/anhdrew\ photo.png) no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.oscar {
+    background: url(../images/oscar\ photo.png) no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.patrick {
+    background: url(../images/patick\ photo.jfif) no-repeat ;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.team-info {
+    width: 400px;
+    margin: 100px 100px 0 100px;
+}
+
+.team-info-under {
+    width: 400px;
+    margin: 100px 100px 0 100px;
+}
+
+
+
+
 /* media queries */
 
 /* nav bar */

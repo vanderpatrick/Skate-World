@@ -310,6 +310,7 @@ footer i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .addison {
@@ -318,6 +319,7 @@ footer i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .andrew {
@@ -326,6 +328,7 @@ footer i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .oscar {
@@ -334,6 +337,7 @@ footer i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .patrick {
@@ -343,6 +347,7 @@ footer i {
     width: 200px;
     border-radius: 50%;
     padding-top: 50px;
+    margin: 0 auto;
 }
 
 .team-info {

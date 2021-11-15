@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@1,300&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
-  color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #3a3a3a;
 }
+
+
 
 li {
     list-style-type: none;
 }
 
-h1, h2 {
-    font-family:Montserrat, sans-serif ;
+h1,
+h2 {
+    font-family: Montserrat, sans-serif;
 }
 
 p {
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
     color: #252525;
     font-size: 150%;
     line-height: 30px;
-    
+
 }
 
 hr {
@@ -31,7 +34,7 @@ hr {
 
 /* navbar */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +45,7 @@ hr {
     padding: 10px 10px;
 }
 
-.brand-title{
+.brand-title {
     font-size: 2rem;
     margin: .5rem;
 }
@@ -52,16 +55,16 @@ hr {
     text-decoration: none;
 }
 
-.navbar-links ul{
-    margin:  0;
+.navbar-links ul {
+    margin: 0;
     padding: 0;
     display: flex;
     font-size: 2rem;
 }
 
-.navbar-links li{
+.navbar-links li {
     list-style: none;
-    
+
 }
 
 .navbar-links li a {
@@ -72,11 +75,11 @@ hr {
 }
 
 .navbar-links li:hover {
-    background-color:#0088a9;
+    background-color: #0088a9;
     border-radius: 10px;
 }
 
-.toggle-button{
+.toggle-button {
     position: absolute;
     top: 25px;
     right: 5rem;
@@ -87,7 +90,7 @@ hr {
     height: 21px;
 }
 
-.toggle-button .bar{
+.toggle-button .bar {
     height: 3px;
     width: 100%;
     background-color: white;
@@ -113,8 +116,8 @@ hr {
 .hero-img {
     height: 600px;
     width: 100%;
-    background:url(../images/hero\ image.jpeg) no-repeat center center;
-    
+    background: url(../images/hero\ image.jpeg) no-repeat center center;
+
 }
 
 .button-logo {
@@ -130,39 +133,39 @@ hr {
     flex-direction: row;
     align-items: center;
     height: 200px;
-    
-    
+
+
 }
 
 .join-button {
     color: white;
     font-size: 200%;
     text-decoration: none;
-    font-family: montserrat,sans-serif;
+    font-family: montserrat, sans-serif;
 }
 
 .join-button:hover {
-    background-color: rgb(0,136,169,0.5);
+    background-color: rgb(0, 136, 169, 0.5);
     border-radius: 20px;
 }
 
 .cover-text {
     font-size: 110%;
-    font-family:Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fafafa;
-    
+
 
     width: 400px;
     height: 250px;
 
-    
 
-    background-color: rgb(86,86,66,0.7);
 
-   margin-left: 2%;
-   margin-bottom: 2%;
+    background-color: rgb(86, 86, 66, 0.7);
+
+    margin-left: 2%;
+    margin-bottom: 2%;
 
     position: absolute;
 }
@@ -176,9 +179,9 @@ hr {
     display: flex;
     justify-content: space-around;
     margin: 100px;
-    padding:  0 100px;
-    line-height: 25px;    
-    
+    padding: 0 100px;
+    line-height: 25px;
+
 }
 
 .school-logo {
@@ -205,11 +208,11 @@ hr {
 }
 
 .circle-outer {
-    
+
     width: 300px;
     height: 300px;
     border-style: solid;
-    border-color: black ;
+    border-color: black;
     border-width: 1px;
     border-radius: 50%;
 }
@@ -225,13 +228,13 @@ hr {
 /* feedback */
 
 
-.feedback{
+.feedback {
     height: 750px;
     display: flex;
     justify-content: space-evenly;
-    margin: 100px 100px 0 100px ;
-    padding:  0 100px;
-    
+    margin: 100px 100px 0 100px;
+    padding: 0 100px;
+
 }
 
 
@@ -263,15 +266,21 @@ hr {
 /* footer */
 
 footer {
-    height:100px;
+    height: 100px;
+    background-color:rgb(63,68,53);
 }
 
 .footer-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 200%;
+    padding-top: 35px;
+}
+
+footer  i {
+    color: white;
 }
 
 
@@ -302,7 +311,7 @@ footer {
 }
 
 .milan {
-    background: url(../images/milan\ photo.png) no-repeat center center ;
+    background: url(../images/milan\ photo.png) no-repeat center center;
     background-size: cover;
     height: 200px;
     width: 200px;
@@ -312,7 +321,7 @@ footer {
 }
 
 .addison {
-    background: url(../images/addison\ photo.png) no-repeat center center ;
+    background: url(../images/addison\ photo.png) no-repeat center center;
     background-size: cover;
     height: 200px;
     width: 200px;
@@ -322,7 +331,7 @@ footer {
 }
 
 .andrew {
-    background: url(../images/anhdrew\ photo.png) no-repeat center center ;
+    background: url(../images/anhdrew\ photo.png) no-repeat center center;
     background-size: cover;
     height: 200px;
     width: 200px;
@@ -332,7 +341,7 @@ footer {
 }
 
 .oscar {
-    background: url(../images/oscar\ photo.png) no-repeat center center ;
+    background: url(../images/oscar\ photo.png) no-repeat center center;
     background-size: cover;
     height: 200px;
     width: 200px;
@@ -342,7 +351,7 @@ footer {
 }
 
 .patrick {
-    background: url(../images/patick\ photo.jfif) no-repeat center center ;
+    background: url(../images/patick\ photo.jfif) no-repeat center center;
     background-size: cover;
     height: 200px;
     width: 200px;
@@ -365,9 +374,58 @@ footer {
 /* signup section */
 
 .form-section {
-    height: 400px;
+    font-family: Roboto, sans-serif;
 }
 
+.form {
+    width: 360px;
+    height: 620px;
+    background-color: white;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+.form-h {
+    text-align: center;
+    padding-top: 15px;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+
+#submit:hover {
+    background-color: rgb(73,193,162,0.5);
+    cursor: pointer;
+}
 
 
 /* media queries */
@@ -375,38 +433,38 @@ footer {
 /* nav bar */
 
 @media (max-width: 400px) {
-    .toggle-button{
-        display:flex ;
+    .toggle-button {
+        display: flex;
     }
-    .navbar-links{
+
+    .navbar-links {
         display: none;
         width: 100%;
     }
 
-    .navbar{
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navbar-links ul{
+    .navbar-links ul {
         flex-direction: column;
         width: 100%;
     }
 
-    .navbar-links li{
+    .navbar-links li {
         text-align: center;
     }
+
     .navbar-links li a {
         padding: .5rem 1rem;
         text-align: center;
     }
 
-    .navbar-links.active{
+    .navbar-links.active {
         display: flex;
     }
 }
 
 
 /* for 1200px wide and down */
-
-

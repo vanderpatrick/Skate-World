@@ -33,16 +33,20 @@
     </header>
     <section class="form-section">
         <div class="form">
-            <label for="usernmae">Username</label>
-            <input type="text" placeholder="Your user Name" id="username" required>
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Your password" required>
-            <label for="fname">First name</label>
-            <input type="text" id="fname" placeholder="First name here" required>
-            <label for="lname">Last name</label>
-            <input type="text" id="lname" placeholder="Last name here" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="your email here" required>
+            <h1 class="form-h">Sign up</h1>
+            <form action="POST">
+                <label>First name</label>
+                <input type="text" placeholder="First name" required>
+                <label>Last name</label>
+                <input type="text" placeholder="Last name" required>
+                <label>Email</label>
+                <input type="email" placeholder="Your Email" required>
+                <label>Password</label>
+                <input type="password" placeholder="Your password" required>
+                <label>Confirm password</label>
+                <input type="password" placeholder="Confirm password" required>
+                <input type="submit" value="Submit" id="submit" >
+            </form>
         </div>
     </section>
     <footer>

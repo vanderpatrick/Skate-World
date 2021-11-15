@@ -156,10 +156,8 @@ hr {
     letter-spacing: 4px;
     color: #fafafa;
 
-
-    width: 400px;
-    height: 250px;
-
+    width: 100%;
+    max-width: 400px;
 
 
     background-color: rgb(86, 86, 66, 0.7);
@@ -175,34 +173,30 @@ hr {
 
 
 .school-info {
-    height: 500px;
-    display: flex;
-    justify-content: space-around;
-    margin: 100px;
-    padding: 0 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
     line-height: 25px;
+    justify-items: center;
+    align-items: center;
 
 }
 
 .school-logo {
     text-align: center;
-    font-size: 280%;
+    font-size: 3em;
     margin: 50px 0;
 }
 
 .left-info-content {
-    width: 300px;
-    margin-bottom: 150px;
+    padding: 40px;
 }
 
 
 .right-info-content {
-    width: 300px;
-    margin-bottom: 100px;
+    padding: 40px;
 }
 
 .center-info {
-    width: 400px;
     display: flex;
     justify-content: center;
 }
@@ -229,19 +223,18 @@ hr {
 
 
 .feedback {
-    height: 750px;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 100px 100px 0 100px;
-    padding: 0 100px;
-
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 
 .feedback-logo {
     text-align: center;
     font-size: 280%;
-    margin: 15px 0;
+    padding: 100px;
 }
 
 .feedback-item-left {
@@ -267,7 +260,7 @@ hr {
 
 footer {
     height: 100px;
-    background-color:rgb(63,68,53);
+    background-color: rgb(63, 68, 53);
 }
 
 .footer-links {
@@ -279,7 +272,7 @@ footer {
     padding-top: 35px;
 }
 
-footer  i {
+footer i {
     color: white;
 }
 
@@ -287,11 +280,13 @@ footer  i {
 /* Team section */
 
 .team {
-    height: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1,1fr);
     line-height: 50px;
+    padding: 50px 0 0;
+    justify-items: center;
+    align-items: center;
 }
 
 .team-logo {
@@ -306,7 +301,6 @@ footer  i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: block;
     margin: 0 auto;
 }
 
@@ -316,8 +310,6 @@ footer  i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
 }
 
 .addison {
@@ -326,8 +318,6 @@ footer  i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
 }
 
 .andrew {
@@ -336,8 +326,6 @@ footer  i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
 }
 
 .oscar {
@@ -346,8 +334,6 @@ footer  i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
 }
 
 .patrick {
@@ -356,19 +342,15 @@ footer  i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
     padding-top: 50px;
 }
 
 .team-info {
-    width: 400px;
-    margin: 100px 100px 0 100px;
+    padding: 40px;
 }
 
 .team-info-under {
-    width: 400px;
-    margin: 100px 100px 0 100px;
+    padding: 40px;
 }
 
 /* signup section */
@@ -423,7 +405,7 @@ input[type="submit"] {
 }
 
 #submit:hover {
-    background-color: rgb(73,193,162,0.5);
+    background-color: rgb(73, 193, 162, 0.5);
     cursor: pointer;
 }
 
@@ -432,7 +414,7 @@ input[type="submit"] {
 
 /* nav bar */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .toggle-button {
         display: flex;
     }
@@ -463,6 +445,28 @@ input[type="submit"] {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .school-info {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .feedback {
+        grid-template-columns: 1fr ;
+    }
+
+    .cover-text {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 200px;
+
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: 1fr ;
     }
 }
 

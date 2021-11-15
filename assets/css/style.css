@@ -75,7 +75,7 @@ hr {
 }
 
 .navbar-links li:hover {
-    background-color: #0088a9;
+    background-color: rgb(73, 193, 162, 0.5);
     border-radius: 10px;
 }
 
@@ -145,7 +145,7 @@ hr {
 }
 
 .join-button:hover {
-    background-color: rgb(0, 136, 169, 0.5);
+    background-color: rgb(73, 193, 162, 0.5);
     border-radius: 20px;
 }
 
@@ -365,7 +365,6 @@ footer i {
     background-color: white;
     margin: auto;
     border-radius: 40px;
-    margin-top: 50px;
 }
 
 .form-h {
@@ -470,5 +469,3 @@ input[type="submit"] {
     }
 }
 
-
-/* for 1200px wide and down */

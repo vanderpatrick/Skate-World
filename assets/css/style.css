@@ -414,9 +414,61 @@ input[type="submit"] {
 }
 
 
+.outer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.inner i {
+    font-size: 10em;
+    color: green;
+}
+
+.header {
+    padding-top: 50px;
+    letter-spacing: 2px;
+}
+
+.header3 {
+    padding-top: 25px;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+.inner {
+    width: 100%;
+    height: 400px;
+    gap: 100px;
+}
+
+
+.clickme {
+    height: 40px;
+    width: 90px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #58b4e0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: Roboto,sans-serif;
+}
+
+.clickme:hover {
+    background-color: rgba(88,180,224,0.6) ;
+}
+
 /* media queries */
 
-/* nav bar */
+
 
 @media (max-width: 500px) {
     .toggle-button {

@@ -238,23 +238,19 @@ hr {
 }
 
 .feedback-item-left {
-    width: 300px;
+    width: 420px;
     margin-bottom: 150px;
     line-height: 20px;
 }
 
 
 .feedback-item-right {
-    width: 300px;
+    width: 420px;
     margin-bottom: 150px;
     line-height: 20px;
 }
 
-.feedback-item-center {
-    width: 300px;
-    margin-bottom: 150px;
-    line-height: 20px;
-}
+
 
 /* footer */
 
@@ -528,6 +524,14 @@ input[type="submit"] {
         padding-bottom: 50px;
 
     }
+    .feedback-item-left {
+        width: 350px;
+    }
+    
+    
+    .feedback-item-right {
+        width: 350px;
+    }
 }
 
 @media (min-width: 503px) {
@@ -563,6 +567,7 @@ input[type="submit"] {
         display: flex;
     } */
 
+    
     .school-info {
         grid-template-columns: 1fr;
         
@@ -583,6 +588,8 @@ input[type="submit"] {
         display: grid;
         grid-template-columns: 1fr ;
     }
+
+    
 }
 
 @media (min-width: 600px) {
@@ -607,6 +614,15 @@ input[type="submit"] {
     .team {
         display: grid;
         grid-template-columns: 1fr ;
+    }
+
+    .feedback-item-left {
+        width: 300px;
+    }
+    
+    
+    .feedback-item-right {
+        width: 300px;
     }
 }
 
@@ -635,9 +651,47 @@ input[type="submit"] {
         grid-template-columns: repeat(3,1fr);
     }
 
-    .feedback-responsive {
-        grid-column: 2/3;
-        grid-row: 2/-1;
+    .feedback-item-left {
+        width: 500px;
+    }
+    
+    
+    .feedback-item-right {
+        width: 500px;
     }
 }
 
+@media (max-width: 644px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+}

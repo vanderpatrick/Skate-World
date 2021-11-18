@@ -1,17 +1,9 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@1,300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     color: #3a3a3a;
 }
 
@@ -43,15 +35,9 @@ hr {
 /* navbar */
 
 .navbar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3f4435;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -72,8 +58,6 @@ hr {
 .navbar-links ul {
     margin: 0;
     padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     font-size: 2rem;
 }
@@ -100,13 +84,8 @@ hr {
     top: 28px;
     right: 5rem;
     display: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
     width: 30px;
     height: 21px;
 }
@@ -129,15 +108,9 @@ hr {
     width: 100%;
     overflow: hidden;
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    justify-content: left;
+    align-items: flex-end;
 }
 
 .hero-img {
@@ -155,19 +128,10 @@ hr {
 }
 
 .join-button-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
     height: 200px;
 
 
@@ -209,15 +173,11 @@ hr {
 
 
 .school-info {
-    -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    display: -ms-grid;
     display: grid;
     line-height: 25px;
     justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 
 }
 
@@ -237,12 +197,8 @@ hr {
 }
 
 .center-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
 }
 
 .circle-outer {
@@ -267,10 +223,8 @@ hr {
 
 
 .feedback {
-    display: -ms-grid;
     display: grid;
     justify-items: center;
-    -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin-top: 20px;
@@ -306,14 +260,9 @@ footer {
 }
 
 .footer-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 150px;
     font-size: 200%;
     padding-top: 35px;
@@ -327,33 +276,13 @@ footer i {
 /* Team section */
 
 .team {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: (1fr)[1];
     grid-template-rows: repeat(1,1fr);
     line-height: 50px;
     padding: 50px 0 0;
     justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-
-.team > *:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-}
-
-.team > *:nth-child(2) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-}
-
-.team > *:nth-child(3) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
+    align-items: center;
 }
 
 .team-logo {
@@ -450,8 +379,6 @@ form {
 }
 
 form label {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
     font-size: 18px;
@@ -484,24 +411,13 @@ input[type="submit"] {
 
 
 .outer {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     justify-items: center;
     text-align: center;
     margin-top: 100px;
-}
-
-
-.outer > *:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
 }
 
 .inner i {
@@ -552,8 +468,6 @@ input[type="submit"] {
 
 @media (max-width: 500px) {
     .toggle-button {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
 
@@ -563,20 +477,12 @@ input[type="submit"] {
     }
 
     .navbar {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .navbar-links ul {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -590,19 +496,15 @@ input[type="submit"] {
     }
 
     .navbar-links.active {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
 
     .school-info {
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         
     }
 
     .feedback {
-        -ms-grid-columns: 1fr ;
         grid-template-columns: 1fr ;
     }
 
@@ -614,9 +516,7 @@ input[type="submit"] {
     } 
 
     .team {
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr ;
         grid-template-columns: 1fr ;
     }
 
@@ -639,6 +539,7 @@ input[type="submit"] {
 
     .cover-text {
         margin: 0;
+        padding: 0;
     }
 }
 
@@ -677,13 +578,11 @@ input[type="submit"] {
 
     
     .school-info {
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         
     }
 
     .feedback {
-        -ms-grid-columns: 1fr ;
         grid-template-columns: 1fr ;
     }
 
@@ -695,9 +594,7 @@ input[type="submit"] {
     }
 
     .team {
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr ;
         grid-template-columns: 1fr ;
     }
 
@@ -707,13 +604,11 @@ input[type="submit"] {
 @media (min-width: 600px) {
    
     .school-info {
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         
     }
 
     .feedback {
-        -ms-grid-columns: 1fr 1fr ;
         grid-template-columns: 1fr 1fr ;
     }
 
@@ -726,9 +621,7 @@ input[type="submit"] {
     } */
 
     .team {
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr ;
         grid-template-columns: 1fr ;
     }
 
@@ -746,13 +639,11 @@ input[type="submit"] {
 
 @media (min-width: 1000px) {
     .school-info {
-        -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3,1fr);
         
     }
 
     .feedback {
-        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -765,9 +656,7 @@ input[type="submit"] {
     } */
 
     .team {
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3,1fr);
     }
 
@@ -783,8 +672,6 @@ input[type="submit"] {
 
 @media (max-width: 644px) {
     .toggle-button {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
 
@@ -794,20 +681,12 @@ input[type="submit"] {
     }
 
     .navbar {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .navbar-links ul {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -821,8 +700,6 @@ input[type="submit"] {
     }
 
     .navbar-links.active {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
 

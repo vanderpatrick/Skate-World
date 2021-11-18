@@ -532,6 +532,14 @@ input[type="submit"] {
     .feedback-item-right {
         width: 350px;
     }
+
+    .feedback-logo {
+        padding: 50px;
+    }
+
+    .cover-text {
+        margin: 0;
+    }
 }
 
 @media (min-width: 503px) {

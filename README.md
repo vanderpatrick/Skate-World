@@ -5,7 +5,7 @@
 ### [Check Skate World](https://vanderpatrick.github.io/Skate-World/index.html)
 ### [Check my Repository](https://github.com/vanderpatrick/Skate-World)
 
-![Example of the application on multiple devices.](/assets/images/responsive.png)
+![responsive image from the main screen](/assets/images/responsive.png)
 
 # Skate World
 
@@ -22,7 +22,7 @@ Skate World is a website with the goal of uniting the skate community all around
 - Skaters that wish to improve their skill set.
 - skaters who wish to learn a diffrent skate style.
 
-## User report - 
+## User Report - 
 
 - first experience
 
@@ -37,6 +37,26 @@ Skate World is a website with the goal of uniting the skate community all around
     3. i would want to double check the contact infromation.
 
 - As a developer    
+    
+    1. I want to make the site easy to navigate.
+    2. I want to make the site direct. 
+    3. I want to be informative.
+
+# Features 
+
+The Features were design to distinguish each area with easy so the user can explore the site instinctively
+
+- Navigation bar
+    - The navigation bar is featured in all 3 pages being responsive for big medium and small devices.
+    - It consists 4 clickable links that redirect in a new tab the other pages. 
+    - The Header act as an link to the home page.
+
+ ![navigation bar image](/assets/images/navbar.png)
+
+-School information
+    
+
+    
 
 
 

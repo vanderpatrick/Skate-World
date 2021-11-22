@@ -64,7 +64,9 @@ The Features were design to distinguish each area with easy so the user can expl
     - The school info section was desing to be as direct an efficient as possible
     - Its composed by three sections to quickly give info about the school and its goals
 
-![info section image](/assets/images/info-content.png)
+![info content image](/assets/images/info-img.png)
+
+
 
     
 

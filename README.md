@@ -14,7 +14,14 @@
 # Reason
 Skate World is a website with the goal of uniting the skate community all around the world in a fast and direct approach, presenting all of the team specialized with differents Skate styles so de user can have a breif information about the teachers team.
 
-# The user Experience
+# The user Experience (UX)
+
+##  Audience - 
+
+- People who wish to learn how to skate
+- Skaters that wish to improve their skill set 
+- skaters who wish to learn a diffrent skate style
+
 
 
 

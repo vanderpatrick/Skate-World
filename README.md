@@ -18,10 +18,21 @@ Skate World is a website with the goal of uniting the skate community all around
 
 ##  Audience - 
 
-- People who wish to learn how to skate
-- Skaters that wish to improve their skill set 
-- skaters who wish to learn a diffrent skate style
+- People who wish to learn how to skate.
+- Skaters that wish to improve their skill set.
+- skaters who wish to learn a diffrent skate style.
 
+## User report - 
+
+- first experience
+    1. As an user i would like to learn about the school with ease.
+    2. As an user i would like an easy navigation.
+    3. As an user i would like to learn about the school team.
+
+- Second experience
+    1. I would want to double check the team info.
+    2. I would want to see the feedback with ease.
+    3. i would want to double check the contact infromation.
 
 
 

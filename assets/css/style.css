@@ -466,7 +466,7 @@ input[type="submit"] {
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
     .toggle-button {
         display: flex;
     }
@@ -542,9 +542,10 @@ input[type="submit"] {
         padding: 0;
     }
 }
-
+@media (max-width: 320px){ 
 .toggle-button {
     display: flex;
+    right: 3rem;
 }
 
 .navbar-links {

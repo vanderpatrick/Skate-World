@@ -66,6 +66,22 @@ The Features were design to distinguish each area with easy so the user can expl
 
 ![info content image](/assets/images/info-img.png)
 
+- Feedback section
+    - This section gives the user experience from students that have enrolled with the school
+    - This is a 2 column grid that highlights the best feedbacks
+
+![feedback info image](/assets/images/feedback.png)
+
+- Footer
+    - footer consists of social media links, where the user can quickly check the school daily routine
+![Footer image](/assets/images/footer.png)
+
+- Team
+    - The team section is a three column grid with te propuse to quickly send information about the teachers to the user
+    - The section gives a brief info about the teacher with a photo for identification
+
+![team section image](/assets/images/team.png)
+
 
 
     

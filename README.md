@@ -16,13 +16,13 @@ Skate World is a website with the goal of uniting the skate community all around
 
 # The user Experience (UX)
 
-##  Audience - 
+##  Audience : 
 
 - People who wish to learn how to skate.
 - Skaters that wish to improve their skill set.
 - skaters who wish to learn a diffrent skate style.
 
-## User Report - 
+## User Report : 
 
 - first experience
 
@@ -42,7 +42,7 @@ Skate World is a website with the goal of uniting the skate community all around
     2. I want to make the site direct. 
     3. I want to be informative.
 
-# Features 
+# Features :
 
 The Features were design to distinguish each area with easy so the user can explore the site instinctively
 
@@ -50,10 +50,22 @@ The Features were design to distinguish each area with easy so the user can expl
     - The navigation bar is featured in all 3 pages being responsive for big medium and small devices.
     - It consists 4 clickable links that redirect in a new tab the other pages. 
     - The Header act as an link to the home page.
+    - as it skrinks the navigations links (Home, Team, Contact) turn into a burger styled menu.
 
  ![navigation bar image](/assets/images/navbar.png)
 
--School information
+- Landing page
+    - the landing page includes an image to give a impactfull community felling.
+    - it consists an overlay for ease contact with the school.
+
+![landing page image](/assets/images/hero-image-readme.png)
+
+- School information
+    - The school info section was desing to be as direct an efficient as possible
+    - Its composed by three sections to quickly give info about the school and its goals
+
+![info section image](/assets/images/info-content.png)
+
     
 
     

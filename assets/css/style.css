@@ -212,7 +212,7 @@ hr {
 }
 
 .circle-inner {
-    background: url(../images/pexels-artem-podrez-4816778.jpg)no-repeat center center;
+    background: url(../images/central-img.jpg) center center no-repeat;
     height: 100%;
     border-radius: 50%;
     background-size: cover;

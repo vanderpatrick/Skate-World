@@ -238,7 +238,7 @@ hr {
 }
 
 .feedback-item-left {
-    width: 420px;
+    width: 400px;
     margin-bottom: 150px;
     line-height: 20px;
 }
@@ -511,7 +511,7 @@ input[type="submit"] {
      .cover-text {
         width: 100%;
         padding: 0 0 300px 0;
-        height: 200px;
+        height: 300px;
 
     } 
 
@@ -542,7 +542,7 @@ input[type="submit"] {
         padding: 0;
     }
 }
-@media (max-width: 320px){ 
+@media (max-width: 320px) { 
 .toggle-button {
     display: flex;
     right: 3rem;
@@ -578,7 +578,7 @@ input[type="submit"] {
 
 .school-info {
     grid-template-columns: 1fr;
-    
+    font-size: small;    
 }
 
 .feedback {
@@ -588,7 +588,7 @@ input[type="submit"] {
  .cover-text {
     width: 100%;
     padding: 0 0 300px 0;
-    height: 200px;
+    height: 300px;
 
 } 
 
@@ -602,12 +602,12 @@ input[type="submit"] {
 
 }
 .feedback-item-left {
-    width: 350px;
+    width: 300px;
 }
 
 
 .feedback-item-right {
-    width: 350px;
+    width: 300px;
 }
 
 .feedback-logo {

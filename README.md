@@ -7,11 +7,11 @@
 
 ![responsive image from the main screen](/assets/images/responsive.png)
 
-# Skate World
+# Skate World :
 
 ### Skate World was developt by me as my first Full Stack Web Development project with Code Institute.
 
-# Reason
+# Reason :
 Skate World is a website with the goal of uniting the skate community all around the world in a fast and direct approach, presenting all of the team specialized with differents Skate styles so de user can have a breif information about the teachers team.
 
 # The user Experience (UX)
@@ -100,12 +100,31 @@ All Html pages have been tested and passed with success.
 
 The CSS file have been tested amd passed with success.
 
-# Deployment
- - The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+# Deployment :
+ ## This project was deployed to GitHub. Instructions how to deploy bellow :
+  - In the GitHub repository go to settings
+  ![image of the settings location](assets/images/deploy-settings.png)
+  - In the settings tab click the page button
+  ![image of the pages location](assets/images/deploy-settings-pages-source-pages.png)
+  - Change the none button to main
+  ![image of the "main" button location](/assets/images/deploy-settings-pages-source-none.png)
+  - Click save and then check your link url
+  ![image of the project url link](assets/images/deploy-settings-pages-source-main-end.png)
 
+  # Credits :
+ 1. [Web Dev Simplified](https://youtu.be/At4B7A4GOPg)
+  - Web dev helped me a lot with my NavBar struggles and with overall problems regarding css and html.
+
+ 2. [Code info](https://youtu.be/-1oE7CWweIE)
+  - this code info video was a steping stone for my contact page
+  
+ 3.  [Code Institute](https://codeinstitute.net/)
+  - Code Institute has a practical and direct teaching system that helped me get to this point
+
+  ## Special thanks 
+
+
+  
 
 
 

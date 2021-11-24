@@ -104,12 +104,18 @@ The CSS file have been tested amd passed with success.
  ## This project was deployed to GitHub. Instructions how to deploy bellow :
   - In the GitHub repository go to settings
   ![image of the settings location](assets/images/deploy-settings.png)
+
   - In the settings tab click the page button
-  ![image of the pages location](assets/images/deploy-settings-pages-source-pages.png)
+  ![image of the pages location](assets/images/pagesreadme.png)
+
   - Change the none button to main
   ![image of the "main" button location](/assets/images/deploy-settings-pages-source-none.png)
+  
   - Click save and then check your link url
   ![image of the project url link](assets/images/deploy-settings-pages-source-main-end.png)
+
+  # External Features :
+  ## In the links bellow you will find all the icons and image used in the project (execpt the team profile photos those were donated by my personal friends)
 
   # Credits :
  1. [Web Dev Simplified](https://youtu.be/At4B7A4GOPg)
@@ -122,7 +128,11 @@ The CSS file have been tested amd passed with success.
   - Code Institute has a practical and direct teaching system that helped me get to this point
 
   ## Special thanks 
+  I would like to thank everyone who helped me with this project
 
+- My mentor.
+- All my friends that helped me out with profile photos for the team section.
+- Armandinho for all the support and advice.
 
   
 

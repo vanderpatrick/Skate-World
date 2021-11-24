@@ -115,7 +115,19 @@ The CSS file have been tested amd passed with success.
   ![image of the project url link](assets/images/deploy-settings-pages-source-main-end.png)
 
   # External Features :
-  ## In the links bellow you will find all the icons and image used in the project (execpt the team profile photos those were donated by my personal friends)
+  ### In the links bellow you will find all the icons and image used in the project (execpt the team profile photos those were donated by my personal friends)
+
+- [Google Fonts](https://fonts.google.com/)
+  - Was used to select the font combination for this project.
+- [Font Awesome](https://fontawesome.com/)
+  - Was used to select the icons used in this project.  
+- [Pexels](https://www.pexels.com/)
+  - Was used to select images used in this project. 
+- [GitHub](https://github.com/)
+  - Was used to store, work and deploy this project.
+
+
+
 
   # Credits :
  1. [Web Dev Simplified](https://youtu.be/At4B7A4GOPg)

@@ -82,6 +82,28 @@ The Features were design to distinguish each area with easy so the user can expl
 
 ![team section image](/assets/images/team.png)
 
+# Testing :
+
+Since this is a HTML and CSS project my main concearn was the responsivenes of the project while taking in account the validation of the html and css.
+
+ - The project was build with a desktop approuch, with this in mind i never thought how stresful it was to make everything responsive.
+
+ - It was used a lot of media quieries to responde not only to general screen sizes but also some for especific sizes.
+
+ # Test Validators :
+
+ ## [HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvanderpatrick.github.io%2FSkate-World%2F)
+
+All Html pages have been tested and passed with success.
+
+ ## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvanderpatrick.github.io%2FSkate-World%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+The CSS file have been tested amd passed with success.
+
+
+
+
+
 
 
     

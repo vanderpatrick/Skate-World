@@ -9,10 +9,10 @@
 
 # Skate World :
 
-### Skate World was developt by me as my first Full Stack Web Development project with Code Institute.
+### Skate World was developed by me as my first Full Stack Web Development project with Code Institute.
 
 # Reason :
-Skate World is a website with the goal of uniting the skate community all around the world in a fast and direct approach, presenting all of the team specialized with differents Skate styles so de user can have a breif information about the teachers team.
+Skate World is a website to unite the skate community all around the world in a fast and direct approach, presenting all of the team specialized with differents Skate styles so de user can have a piece of brief information about the teacher's team.
 
 # The user Experience (UX)
 
@@ -20,21 +20,21 @@ Skate World is a website with the goal of uniting the skate community all around
 
 - People who wish to learn how to skate.
 - Skaters that wish to improve their skill set.
-- skaters who wish to learn a diffrent skate style.
+- skaters who wish to learn a different skate style.
 
 ## User Report : 
 
 - first experience
 
-    1. As an user i would like to learn about the school with ease.
-    2. As an user i would like an easy navigation.
-    3. As an user i would like to learn about the school team.
+    1. As a user I would like to learn about the school with ease.
+    2. As a user I would like easy navigation.
+    3. As a user I would like to learn about the school team.
 
 - Second experience
 
-    1. I would want to double check the team info.
+    1. I would want to double-check the team info.
     2. I would want to see the feedback with ease.
-    3. i would want to double check the contact infromation.
+    3. I would want to double-check the contact information.
 
 - As a developer    
     
@@ -44,25 +44,25 @@ Skate World is a website with the goal of uniting the skate community all around
 
 # Features :
 
-The Features were design to distinguish each area with easy so the user can explore the site instinctively
+The Features were designed to distinguish each area with ease so the user can explore the site instinctively
 
 - Navigation bar
-    - The navigation bar is featured in all 3 pages being responsive for big medium and small devices.
-    - It consists 4 clickable links that redirect in a new tab the other pages. 
-    - The Header act as an link to the home page.
-    - as it skrinks the navigations links (Home, Team, Contact) turn into a burger styled menu.
+    - The navigation bar is featured on all 3 pages being responsive for big medium and small devices.
+    - It consists of 4 clickable links that redirect in a new tab to the other pages. 
+    - The Header act as a link to the home page.
+    - as it shrinks the navigations links (Home, Team, Contact) turn into a burger-styled menu.
 
  ![navigation bar image](/assets/images/navbar.png)
 
 - Landing page
-    - the landing page includes an image to give a impactfull community felling.
-    - it consists an overlay for ease contact with the school.
+    - the landing page includes an image to give an impactful community feeling.
+    - it consists of an overlay for easy contact with the school.
 
 ![landing page image](/assets/images/hero-image-readme.png)
 
 - School information
-    - The school info section was desing to be as direct an efficient as possible
-    - Its composed by three sections to quickly give info about the school and its goals
+    - The school info section was designed to be as direct and efficient as possible
+    - It's composed of three sections to quickly give info about the school and its goals
 
 ![info content image](/assets/images/info-img.png)
 
@@ -77,18 +77,19 @@ The Features were design to distinguish each area with easy so the user can expl
 ![Footer image](/assets/images/footer.png)
 
 - Team
-    - The team section is a three column grid with te propuse to quickly send information about the teachers to the user
+    - The team section is a three-column grid with the 
+purpose to quickly send information about the teachers to the user
     - The section gives a brief info about the teacher with a photo for identification
 
 ![team section image](/assets/images/team.png)
 
 # Testing :
 
-Since this is a HTML and CSS project my main concearn was the responsivenes of the project while taking in account the validation of the html and css.
+Since this is an HTML and CSS project my main concern was the responsiveness of the project while taking into account the validation of the HTML and CSS.
 
- - The project was build with a desktop approuch, with this in mind i never thought how stresful it was to make everything responsive.
+ - The project was built with a desktop approach, with this in mind I never thought how stressful it was to make everything responsive.
 
- - It was used a lot of media quieries to responde not only to general screen sizes but also some for especific sizes.
+ - It was used a lot of media queries to respond not only to general screen sizes but also some for specific sizes.
 
  # Test Validators :
 
@@ -98,24 +99,24 @@ All Html pages have been tested and passed with success.
 
  ## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvanderpatrick.github.io%2FSkate-World%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-The CSS file have been tested amd passed with success.
+The CSS file has been tested and passed with success.
 
 # Deployment :
- ## This project was deployed to GitHub. Instructions how to deploy bellow :
+ ## This project was deployed to GitHub. Instructions on how to deploy bellow :
   - In the GitHub repository go to settings
   ![image of the settings location](assets/images/deploy-settings.png)
 
   - In the settings tab click the page button
-  ![image of the pages location](assets/images/pagesreadme.png)
+  ![Image of the page's location](assets/images/pagesreadme.png)
 
-  - Change the none button to main
+  - Change the none button to the main
   ![image of the "main" button location](/assets/images/deploy-settings-pages-source-none.png)
   
-  - Click save and then check your link url
-  ![image of the project url link](assets/images/deploy-settings-pages-source-main-end.png)
+  - Click save and then check your link URL
+  ![image of the project URL link](assets/images/deploy-settings-pages-source-main-end.png)
 
   # External Features :
-  ### In the links bellow you will find all the icons and image used in the project (execpt the team profile photos those were donated by my personal friends)
+  ### In the links below, you will find all the icons and images used in the project (except the team profile photos that were donated by my personal friends)
 
 - [Google Fonts](https://fonts.google.com/)
   - Was used to select the font combination for this project.
@@ -131,10 +132,10 @@ The CSS file have been tested amd passed with success.
 
   # Credits :
  1. [Web Dev Simplified](https://youtu.be/At4B7A4GOPg)
-  - Web dev helped me a lot with my NavBar struggles and with overall problems regarding css and html.
+  - Web dev helped me a lot with my NavBar struggles and with overall problems regarding CSS and HTML.
 
  2. [Code info](https://youtu.be/-1oE7CWweIE)
-  - this code info video was a steping stone for my contact page
+  - this code info video was a stepping stone for my contact page
   
  3.  [Code Institute](https://codeinstitute.net/)
   - Code Institute has a practical and direct teaching system that helped me get to this point
@@ -143,7 +144,8 @@ The CSS file have been tested amd passed with success.
   I would like to thank everyone who helped me with this project
 
 - My mentor.
-- All my friends that helped me out with profile photos for the team section.
+- All my friends' 
+which helped me out with profile photos for the team section.
 - Armandinho for all the support and advice.
 
   

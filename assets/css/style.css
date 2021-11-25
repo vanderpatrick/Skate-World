@@ -367,9 +367,6 @@ footer i {
 
 .form-section {
     font-family: Roboto, sans-serif;
-    height: 100%;
-    
-    
 }
     
 
@@ -383,6 +380,7 @@ footer i {
 }
 
 .form-h {
+    font-size: %;
     text-align: center;
     padding-top: 15px;
 }

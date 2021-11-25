@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@1,300&display=swap');
+
 /* default section */
 * {
     margin: 0;
@@ -278,7 +279,7 @@ footer i {
 .team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr);
     line-height: 50px;
     padding: 50px 0 0;
     justify-items: center;
@@ -375,7 +376,6 @@ footer i {
 
 form {
     width: 300px;
-    margin-left: 20px;
 }
 
 form label {
@@ -383,6 +383,11 @@ form label {
     margin-top: 20px;
     font-size: 18px;
     text-align: center;
+}
+
+#message {
+    border-radius: 6px;
+    margin-top: 10px;
 }
 
 form input {
@@ -432,7 +437,7 @@ input[type="submit"] {
 
 .header3 {
     padding-top: 25px;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -455,15 +460,105 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
     letter-spacing: 2px;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .clickme:hover {
-    background-color: rgba(88,180,224,0.6) ;
+    background-color: rgba(88, 180, 224, 0.6);
 }
 
 /* media queries */
 
+@media (max-width: 320px) {
+    .toggle-button {
+        display: flex;
+        right: 3rem;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .school-info {
+        grid-template-columns: 1fr;
+        font-size: small;
+    }
+
+    .feedback {
+        grid-template-columns: 1fr;
+    }
+
+    .cover-text {
+        width: 100%;
+        padding: 0 0 300px 0;
+        height: 300px;
+
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .join-button-container {
+        padding-bottom: 50px;
+
+    }
+
+    .feedback-item-left {
+        width: 300px;
+    }
+
+
+    .feedback-item-right {
+        width: 300px;
+    }
+
+    .feedback-logo {
+        padding: 50px;
+    }
+
+    .cover-text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .form{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
 
 
 @media (max-width: 500px) {
@@ -501,34 +596,35 @@ input[type="submit"] {
 
     .school-info {
         grid-template-columns: 1fr;
-        
+
     }
 
     .feedback {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 
-     .cover-text {
+    .cover-text {
         width: 100%;
         padding: 0 0 300px 0;
         height: 300px;
 
-    } 
+    }
 
     .team {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 
     .join-button-container {
         padding-bottom: 50px;
 
     }
+
     .feedback-item-left {
         width: 350px;
     }
-    
-    
+
+
     .feedback-item-right {
         width: 350px;
     }
@@ -542,92 +638,15 @@ input[type="submit"] {
         padding: 0;
     }
 }
-@media (max-width: 320px) { 
-.toggle-button {
-    display: flex;
-    right: 3rem;
-}
-
-.navbar-links {
-    display: none;
-    width: 100%;
-}
-
-.navbar {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.navbar-links ul {
-    flex-direction: column;
-    width: 100%;
-}
-
-.navbar-links li {
-    text-align: center;
-}
-
-.navbar-links li a {
-    padding: .5rem 1rem;
-    text-align: center;
-}
-
-.navbar-links.active {
-    display: flex;
-}
-
-.school-info {
-    grid-template-columns: 1fr;
-    font-size: small;    
-}
-
-.feedback {
-    grid-template-columns: 1fr ;
-}
-
- .cover-text {
-    width: 100%;
-    padding: 0 0 300px 0;
-    height: 300px;
-
-} 
-
-.team {
-    display: grid;
-    grid-template-columns: 1fr ;
-}
-
-.join-button-container {
-    padding-bottom: 50px;
-
-}
-.feedback-item-left {
-    width: 300px;
-}
-
-
-.feedback-item-right {
-    width: 300px;
-}
-
-.feedback-logo {
-    padding: 50px;
-}
-
-.cover-text {
-    margin: 0;
-    padding: 0;
-}
-}
 
 @media (min-width: 503px) {
     .school-info {
         grid-template-columns: 1fr;
-        
+
     }
 
     .feedback {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 
     .cover-text {
@@ -639,30 +658,32 @@ input[type="submit"] {
 
     .team {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
+
+
 }
 
 @media (min-width: 600px) {
     .school-info {
         grid-template-columns: 1fr;
-        
+
     }
 
     .feedback {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
     }
 
     .team {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 
     .feedback-item-left {
         width: 300px;
     }
-    
-    
+
+
     .feedback-item-right {
         width: 300px;
     }
@@ -705,26 +726,25 @@ input[type="submit"] {
 
 @media (min-width: 1000px) {
     .school-info {
-        grid-template-columns: repeat(3,1fr);
-        
+        grid-template-columns: repeat(3, 1fr);
+
     }
 
     .feedback {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .team {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .feedback-item-left {
         width: 500px;
     }
-    
-    
+
+
     .feedback-item-right {
         width: 500px;
     }
 }
-

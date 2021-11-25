@@ -44,7 +44,7 @@ Skate World is a website to unite the skate community all around the world in a 
 
 # Features :
 
-The Features were designed to distinguish each area with ease so the user can explore the site instinctively
+The Features were designed to distinguish each area with ease so the user can explore the site instinctively.
 
 - Navigation bar
     - The navigation bar is featured on all 3 pages being responsive for big medium and small devices.
@@ -61,27 +61,36 @@ The Features were designed to distinguish each area with ease so the user can ex
 ![landing page image](/assets/images/hero-image-readme.png)
 
 - School information
-    - The school info section was designed to be as direct and efficient as possible
-    - It's composed of three sections to quickly give info about the school and its goals
+    - The school info section was designed to be as direct and efficient as possible.
+    - It's composed of three sections to quickly give info about the school and its goals.
 
 ![info content image](/assets/images/info-img.png)
 
 - Feedback section
-    - This section gives the user experience from students that have enrolled with the school
-    - This is a 2 column grid that highlights the best feedbacks
+    - This section gives the user experience from students that have enrolled with the school.
+    - This is a 2 column grid that highlights the best feedbacks.
 
 ![feedback info image](/assets/images/feedback.png)
 
 - Footer
-    - footer consists of social media links, where the user can quickly check the school daily routine
+    - footer consists of social media links, where the user can quickly check the school's daily routine.
 ![Footer image](/assets/images/footer.png)
 
 - Team
-    - The team section is a three-column grid with the 
-purpose to quickly send information about the teachers to the user
-    - The section gives a brief info about the teacher with a photo for identification
+    - The team section is a three-column grid with the.
+purpose to quickly send information about the teachers to the user.
+    - The section gives a brief info about the teacher with a photo for identification.
 
 ![team section image](/assets/images/team.png)
+
+- Contact us
+
+  - this section is a form made for the user to send questions that they have to the school team.
+  ![Contact section image](/assets/images/contactus.png)
+
+- After page
+  - This page redirects you to the home page with a clickable button.
+  ![after page section image](assets/images/after.png)
 
 # Testing :
 
@@ -103,20 +112,20 @@ The CSS file has been tested and passed with success.
 
 # Deployment :
  ## This project was deployed to GitHub. Instructions on how to deploy bellow :
-  - In the GitHub repository go to settings
+  - In the GitHub repository go to settings.
   ![image of the settings location](assets/images/deploy-settings.png)
 
-  - In the settings tab click the page button
+  - In the settings tab click the page button.
   ![Image of the page's location](assets/images/pagesreadme.png)
 
-  - Change the none button to the main
+  - Change the none button to the main.
   ![image of the "main" button location](/assets/images/deploy-settings-pages-source-none.png)
   
-  - Click save and then check your link URL
+  - Click save and then check your link URL.
   ![image of the project URL link](assets/images/deploy-settings-pages-source-main-end.png)
 
   # External Features :
-  ### In the links below, you will find all the icons and images used in the project (except the team profile photos that were donated by my personal friends)
+  ### In the links below, you will find all the icons and images used in the project. (except the team profile photos that were donated by my personal friends)
 
 - [Google Fonts](https://fonts.google.com/)
   - Was used to select the font combination for this project.
@@ -124,8 +133,6 @@ The CSS file has been tested and passed with success.
   - Was used to select the icons used in this project.  
 - [Pexels](https://www.pexels.com/)
   - Was used to select images used in this project. 
-- [GitHub](https://github.com/)
-  - Was used to store, work and deploy this project.
 
 
 
@@ -135,31 +142,16 @@ The CSS file has been tested and passed with success.
   - Web dev helped me a lot with my NavBar struggles and with overall problems regarding CSS and HTML.
 
  2. [Code info](https://youtu.be/-1oE7CWweIE)
-  - this code info video was a stepping stone for my contact page
+  - this code info video was a stepping stone for my contact page.
   
  3.  [Code Institute](https://codeinstitute.net/)
-  - Code Institute has a practical and direct teaching system that helped me get to this point
+  - Code Institute has a practical and direct teaching system that helped me get to this point.
 
   ## Special thanks 
-  I would like to thank everyone who helped me with this project
+  I would like to thank everyone who helped me with this project.
 
 - My mentor.
-- All my friends' 
+- All my friends,
 which helped me out with profile photos for the team section.
 - Armandinho for all the support and advice.
-
-  
-
-
-
-
-    
-
-    
-
-
-
-
-
-
-
+- Code Institute for giving the best support to develop this project.

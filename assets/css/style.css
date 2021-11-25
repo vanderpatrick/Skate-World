@@ -380,7 +380,7 @@ footer i {
 }
 
 .form-h {
-    font-size: %;
+    font-size: 180%;
     text-align: center;
     padding-top: 15px;
 }
@@ -544,12 +544,16 @@ input[type="submit"] {
     }
 
     .feedback-item-left {
-        width: 300px;
+        width: 200px;
+        font-size: small;
+        padding: 0 30px;
     }
 
 
     .feedback-item-right {
         width: 300px;
+        font-size: small;
+        padding: 0 30px;
     }
 
     .feedback-logo {
@@ -563,7 +567,7 @@ input[type="submit"] {
 
     .form{
         width: 100%;
-        
+        padding: 0 10px;   
     }
 
     

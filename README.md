@@ -139,7 +139,7 @@ The CSS file has been tested and passed with success.
 
   # Credits :
  1. [Web Dev Simplified](https://youtu.be/At4B7A4GOPg)
-  - Web dev helped me a lot with my NavBar struggles and with overall problems regarding CSS and HTML. This video was a stepping stone for my navbar.
+  - Web dev helped me a lot with my NavBar struggles and with overall problems regarding CSS and HTML. This video was a stepping stone for my NavBar.
 
  2. [Code info](https://youtu.be/-1oE7CWweIE)
   - this code info video was a stepping stone for my contact page.
